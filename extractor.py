@@ -22,13 +22,13 @@ def getAgoString(z):
     d = parser.parse(z)
     now = datetime.datetime.now()
     if(now.year - d.year > 0):
-        return str(now.year - d.year) + "year"+("" if now.year - d.year == 1 else "s")+ " ago"
+        return str(now.year - d.year) + " year"+("" if now.year - d.year == 1 else "s")+ " ago"
     if(now.month - d.month > 0):
-        return str(now.month - d.month) + "month"+("" if now.month - d.month == 1 else "s")+ " ago"
+        return str(now.month - d.month) + " month"+("" if now.month - d.month == 1 else "s")+ " ago"
     if(now.day - d.day > 0):
-        return str(now.day - d.day) + "day"+("" if now.day - d.day == 1 else "s")+ " ago"
+        return str(now.day - d.day) + " day"+("" if now.day - d.day == 1 else "s")+ " ago"
     if(now.hour - d.hour > 0):
-        return str(now.hour - d.hour) + "hour"+("" if now.hour - d.hour == 1 else "s")+ " ago"
+        return str(now.hour - d.hour) + " hour"+("" if now.hour - d.hour == 1 else "s")+ " ago"
     return "Just now"
 
 def getRepoInfo(repo):
@@ -57,6 +57,6 @@ for line in open('components.txt').readlines():
         repo,img = re.findall("\[(.*)\]\((.*)\)",line)[0]
         
         i = getRepoInfo(repo)
-        fout.write("|<ul><li><b>"+i['name']+"</b></li><li>"+i['description']+"</ul>|<ul><li>Last updated : "+i['lastUpdate']+"</li><li>Stars : "+i['stars']+"</li><li>Open issues : "+i['issues']+"</li></ul>|![]("+i['image']+")|\n")
+        fout.write("|<h3>"+i['name']+"</h3>"+i['description']+"|<ul><li>Last updated : "+i['lastUpdate']+"</li><li>Stars : "+i['stars']+"</li><li>Open issues : "+i['issues']+"</li></ul>|![]("+i['image']+")|\n")
 
 fout.close()
