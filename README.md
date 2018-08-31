@@ -1,4 +1,6 @@
 # Awesome React Native UI Components
+| Component | Activity | Demo |
+|---|---|---|
 |[<h3>lottie-react-native</h3>](https://github.com/airbnb/lottie-react-native)Lottie wrapper for React Native.|<ul><li>Last updated : 7 hours ago</li><li>Stars : 9730</li><li>Open issues : 62</li></ul>|![](https://raw.githubusercontent.com/airbnb/lottie-react-native/master/docs/gifs/Example1.gif)|
 |[<h3>react-native-vector-icons</h3>](https://github.com/oblador/react-native-vector-icons)Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.|<ul><li>Last updated : 6 hours ago</li><li>Stars : 9210</li><li>Open issues : 121</li></ul>|![](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)|
 |[<h3>react-native-maps</h3>](https://github.com/lelandrichardson/react-native-maps)React Native Mapview component for iOS + Android|<ul><li>Last updated : 7 hours ago</li><li>Stars : 8029</li><li>Open issues : 415</li></ul>|![](http://i.giphy.com/3o6UBpncYQASu2WTW8.gif)|
