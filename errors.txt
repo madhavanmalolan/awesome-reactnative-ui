@@ -4,8 +4,6 @@
 
 - [remobile/react-native-splashscreen]()
 
-- [crabstudio/react-native-search-box]()
-
 - [remobile/react-native-cache-image]()
 
 - [lesliesam/react-native-wheel-picker]()
