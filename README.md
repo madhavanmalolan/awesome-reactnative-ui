@@ -8,7 +8,7 @@ Send in a PR by editing the `components.txt` file.
 
 |Repository | Activity | Demo|
 |---|---|---|
-|[react-native-material-kit](https://github.com/xinthink/react-native-material-kit) : Bringing Material Design to React Native|<ul><li>Last updated : This week</li><li>Stars : 4035</li><li>Open issues : 142</li></ul>|![](http://xinthink.github.io/react-native-material-kit/images/logo_JetBrains_1.svg)|
+|[react-native-material-kit](https://github.com/xinthink/react-native-material-kit) : Bringing Material Design to React Native|<ul><li>Last updated : This week</li><li>Stars : 4035</li><li>Open issues : 142</li></ul>|![](https://cloud.githubusercontent.com/assets/390805/8888853/69f8d9f8-32f2-11e5-9823-c235ab8c0dd2.gif)|
 |[react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten) : 🐱  Customizable and reusable react-native component kit|<ul><li>Last updated : This week</li><li>Stars : 2930</li><li>Open issues : 36</li></ul>|![](https://cdn.rawgit.com/akveo/react-native-ui-kitten/085afb52/docs/assets/banner.png)|
 |[react-native-material-ui](https://github.com/xotahal/react-native-material-ui) : Highly customizable material design components for React Native|<ul><li>Last updated : This week</li><li>Stars : 2213</li><li>Open issues : 134</li></ul>|![](https://cdn-images-1.medium.com/max/2000/1*c4LrPZvMIgIZntDPfYDKFA.png)|
 |[nachos-ui](https://github.com/avocode/nachos-ui) : Nachos UI is a React Native component library.|<ul><li>Last updated : This week</li><li>Stars : 1631</li><li>Open issues : 16</li></ul>|![](https://cldup.com/xHYkAezOnI.jpg)|
