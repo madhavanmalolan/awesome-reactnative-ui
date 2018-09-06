@@ -372,4 +372,5 @@
 - [alinz/react-native-scene-manager]()
 - [rhaker/react-native-create-new-file-ios]()
 - [frostney/react-native-image-container]()
+- [NesChaiyapon/react-native-simple-slider]()
 
