@@ -3,7 +3,6 @@ import urllib.request
 import json
 import datetime
 from dateutil import parser
-from credentials import creds
 import sys
 import time
 ferr = open('errors.txt','w',encoding='utf-8')
@@ -11,18 +10,7 @@ fout = open('README.md','w', encoding='utf-8')
 fout.write("# Awesome React Native UI Components\n");
 def curl(url, retry=True):
     try:
-        """"
-        p = urllib.request.HTTPPasswordMgrWithDefaultRealm()
-        p.add_password(None, url, creds['username'], creds['password'])
-
-        auth_handler = urllib.request.HTTPBasicAuthHandler(p)
-
-        opener = urllib.request.build_opener(auth_handler)
-        urllib.request.install_opener(opener)    
-        o = opener.open(url)
-        return o.read()
-        """
-        return urllib.request.urlopen(url).read()
+        return urllib.request.urlopen(url).read().decode(encoding='utf-8')
     except Exception as e:
         print(url)
         print(e)
@@ -92,10 +80,12 @@ for line in open(sys.argv[1]).readlines():
             
             i = getRepoInfo(repo)
             fout.write("|[<h3>"+i['name']+"</h3>](https://github.com/"+repo+") : "+i['description']+"|<ul><li>Last updated : "+i['lastUpdate']+"</li><li>Stars : "+i['stars']+"</li><li>Open issues : "+i['issues']+"</li></ul>|![]("+i['image']+")|\n")
-        time.sleep(121)
+            time.sleep(121)
             
-    except : 
+    except Exception as e: 
         print("FAILED : "+line)
+        print(e)
         ferr.write(line+"\n")
+        time.sleep(121)
 
 fout.close()
