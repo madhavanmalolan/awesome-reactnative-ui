@@ -79,7 +79,7 @@ for line in open(sys.argv[1]).readlines():
             repo,img = re.findall("\[(.*)\]\((.*)\)",line)[0]
             
             i = getRepoInfo(repo)
-            fout.write("|[<h3>"+i['name']+"</h3>](https://github.com/"+repo+") : "+i['description']+"|<ul><li>Last updated : "+i['lastUpdate']+"</li><li>Stars : "+i['stars']+"</li><li>Open issues : "+i['issues']+"</li></ul>|![]("+i['image']+")|\n")
+            fout.write("|["+i['name']+"](https://github.com/"+repo+") : "+i['description']+"|<ul><li>Last updated : "+i['lastUpdate']+"</li><li>Stars : "+i['stars']+"</li><li>Open issues : "+i['issues']+"</li></ul>|![]("+i['image']+")|\n")
             time.sleep(121)
             
     except Exception as e: 
