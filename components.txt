@@ -23,6 +23,7 @@
 - [ivpusic/react-native-image-crop-picker]()
 - [Kureev/react-native-blur]()
 - [crazycodeboy/react-native-splash-screen]()
+- [react-native-component/react-native-smart-splash-screen]()
 - [hectahertz/react-native-typography]()
 - [dancormier/react-native-swipeout]()
 - [halilb/react-native-textinput-effects]()
