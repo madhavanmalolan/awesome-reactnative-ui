@@ -6,6 +6,7 @@
 - [Trixieapp/react-virgin]()
 - [ayoubdev/react-native-android-kit]()
 - [wix/react-native-ui-lib]()
+- [react-native-training/react-native-elements]()
 
 # Others
 - [airbnb/lottie-react-native]()
