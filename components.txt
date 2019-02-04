@@ -379,3 +379,4 @@
 - [NesChaiyapon/react-native-simple-slider]()
 - [henninghall/react-native-date-picker]()
 - [jacklein/rn-bottom-drawer]()
+- [catalinmiron/react-native-css-gradient]()
