@@ -1,7 +1,5 @@
 - [callstack/react-native-paper.git]()
 
-- [spikef/react-native-gesture-password]()
-
 - [remobile/react-native-splashscreen]()
 
 - [remobile/react-native-cache-image]()
@@ -17,6 +15,8 @@
 - [ElekenAgency/ReactNativeWheelPicker]()
 
 - [zehfernandes/react-native-3dcube-navigation]()
+
+- [guodong000/react-native-custom-actsheet]()
 
 - [caroaguilar/react-native-bar-collapsible]()
 
