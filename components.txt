@@ -10,6 +10,7 @@
 - [GeekyAnts/NativeBase]()
 
 # Others
+- [vishaldhanotiya/rn-modal-picker]()
 - [airbnb/lottie-react-native]()
 - [oblador/react-native-vector-icons]()
 - [lelandrichardson/react-native-maps]()
