@@ -1,7 +1,7 @@
 # Awesome React Native UI Components
 Have a component that isn't listed here? Send in a PR by editing the `components.txt` file.
 
-##UI Kits
+## UI Kits
 
 
 |Repository | Activity | Demo|
