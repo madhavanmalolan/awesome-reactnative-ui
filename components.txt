@@ -37,6 +37,7 @@
 - [jmurzy/react-native-foldview]()
 - [mapbox/react-native-mapbox-gl]()
 - [DylanVann/react-native-fast-image]()
+- [mrousavy/react-native-blurhash]()
 - [maxs15/react-native-spinkit]()
 - [onefold/react-native-chart]()
 - [FaridSafi/react-native-gifted-listview]()
