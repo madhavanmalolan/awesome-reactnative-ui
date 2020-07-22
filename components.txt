@@ -91,6 +91,7 @@
 - [syrusakbary/react-native-refresher]()
 - [nick/react-native-carousel]()
 - [djchie/react-native-star-rating]()
+- [ui-ninja/react-native-rating-element]()
 - [ArnaudRinquin/react-native-radio-buttons]()
 - [spikef/react-native-gesture-password]()
 - [exponentjs/react-native-invertible-scroll-view]()
