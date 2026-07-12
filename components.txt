@@ -387,3 +387,5 @@
 - [xcarpentier/react-native-suggester]()
 - [toystars/react-native-multiple-select]()
 - [mobily/stacks]()
+- [himanshu-lal4/react-native-liquid-glassmorphism](https://github.com/himanshu-lal4/react-native-liquid-glassmorphism/releases/download/v0.1.0/reel-android.gif)
+- [himanshu-lal4/react-native-tour-guide](https://raw.githubusercontent.com/himanshu-lal4/react-native-tour-guide/main/IOSDemo.gif)
