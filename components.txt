@@ -387,3 +387,4 @@
 - [xcarpentier/react-native-suggester]()
 - [toystars/react-native-multiple-select]()
 - [mobily/stacks]()
+- [hicay/react-native-text-avatar](https://raw.githubusercontent.com/hicay/react-native-text-avatar/master/demo.jpg)
